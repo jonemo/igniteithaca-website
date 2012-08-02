@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^post/(.*)$ http://igniteithaca.tumblr.com/post/$1 [R=301,L]
+RewriteRule ^page/(.*)$ http://igniteithaca.tumblr.com/page/$1 [R=301,L]
+RewriteRule ^tagged/(.*)$ http://igniteithaca.tumblr.com/tagged/$1 [R=301,L]
